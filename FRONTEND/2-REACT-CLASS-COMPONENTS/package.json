@@ -1,0 +1,33 @@
+{
+  "name": "usercode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "parcel",
+    "start-dev": "parcel src/index.html --open",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/react": "^13.0.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-test-renderer": "^18.0.0"
+  }
+}

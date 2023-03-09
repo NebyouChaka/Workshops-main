@@ -1,0 +1,54 @@
+@import "https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Ubuntu:wght@500&display=swap";
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #3f0d12;
+  background-color: #8d775f;
+  font-family: Ubuntu;
+  font-size: 1.5rem;
+}
+
+#app {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.step {
+  width: 30rem;
+  background-color: #f1f0cc;
+  border-radius: .3rem;
+  flex-direction: column;
+  align-items: center;
+  margin: .3rem 0;
+  padding: 2rem;
+  display: flex;
+}
+
+.step > * {
+  margin: .2rem;
+}
+
+button {
+  color: #000;
+  margin: .3rem;
+  padding: .2rem;
+}
+
+.arabica {
+  color: #f1f0cc;
+  background-color: #d5bf86;
+  border-radius: .2rem;
+  padding: .2rem;
+}
+
+.arabica:after {
+  content: " ☕️";
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
